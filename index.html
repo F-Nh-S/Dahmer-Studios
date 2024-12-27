@@ -1,0 +1,790 @@
+<html class="no-js" lang="en" style="--announcement-height: 1px;">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="" />
+  <link rel="canonical" href="" />
+
+
+  <link rel="shortcut icon" href="./LogoSm.png" type="image/png" />
+
+
+  <title>
+    DAHMER
+    &ndash;
+    Opening soon
+  </title>
+
+
+
+
+
+
+
+  <meta name="description" content="Dahmer Studios" />
+  <meta property="og:url" content="http://dahmerstudios.com" />
+  <meta property="og:site_name" content="DAHMER" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DAHMER" />
+  <meta property="og:description" content="DAHMER" />
+  <meta property="og:image" href="./Logo.png" />
+  <meta property="og:image:secure_url" href="./LogoSm.png" />
+
+
+
+
+
+  <script>
+    console.log('Spark v3.0.0 by Fluorescent');
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', '');
+    if (window.matchMedia(`(prefers-reduced-motion: reduce)`) === true || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true) {
+      document.documentElement.classList.add('prefers-reduced-motion');
+    }
+
+    window.theme = {
+      version: 'v3.0.0',
+      animation: {
+        delayExtraShort: 0.08,
+        delayShort: 0.1,
+        delay: 0.14,
+        delayLong: 0.33,
+        duration: 0.66,
+        ease: "0.33,0.00,0.00,1.00"
+      },
+      strings: {
+        name: "DAHMER",
+        accessibility: {
+          play_video: "Play",
+          pause_video: "Pause"
+        },
+        product: {
+          no_shipping_rates: "Shipping rate unavailable",
+          country_placeholder: "Country\/Region",
+          review: "Write a review"
+        },
+        products: {
+          product: {
+            unavailable: "Unavailable",
+            unitPrice: "Unit price",
+            unitPriceSeparator: "per",
+            sku: "SKU"
+          }
+        },
+        quickCart: {
+          addProductQuantity: "Subtract product quantity",
+          removeProductQuantity: "Add product quantity",
+          removeProduct: "Remove",
+          quantity: "Quantity"
+        }
+      },
+      routes: {
+        root: "/",
+        cart: {
+          base: "/cart",
+          add: "/cart/add",
+          change: "/cart/change",
+          clear: "/cart/clear",
+          // Manual routes until Shopify adds support
+          shipping: "/cart/shipping_rates",
+        },
+        // Manual routes until Shopify adds support
+        products: "/products",
+        productRecommendations: "/recommendations/products",
+        predictive_search_url: '/search/suggest'
+      },
+    }
+
+
+  </script>
+  <script>
+    window.theme.moneyFormat = "Rs. {{amount}}"
+  </script>
+  <style>
+    @font-face {
+      font-family: Helvetica;
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/helvetica/helvetica_n4.fe093fe9ca22a15354813c912484945a36b79146.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=a319bb28b546bcbce38c9a3cd84146a4aaad0224a579a68649f4718eb697962f") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/helvetica/helvetica_n4.8bddb85c18a0094c427a9bf65dee963ad88de4e8.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=c82c49dd37f4ea048e063d613c29be9812b10caca9e6026ee27b3d132b9b3a9b") format("woff");
+    }
+
+    @font-face {
+      font-family: Helvetica;
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=717e371aef48b699d9b8f2d4490a6374cacaa18ee6518deacaba13c6c3e6565f") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/helvetica/helvetica_n7.b95359461a6788d5549e702cb2123bc40c227e49.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=dedd40d894c29a19662f755feee906f73ce5f0aa2c073f4a67a59e45ccdccdba") format("woff");
+    }
+
+    @font-face {
+      font-family: Helvetica;
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/helvetica/helvetica_n4.fe093fe9ca22a15354813c912484945a36b79146.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=a319bb28b546bcbce38c9a3cd84146a4aaad0224a579a68649f4718eb697962f") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/helvetica/helvetica_n4.8bddb85c18a0094c427a9bf65dee963ad88de4e8.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=c82c49dd37f4ea048e063d613c29be9812b10caca9e6026ee27b3d132b9b3a9b") format("woff");
+    }
+
+    @font-face {
+      font-family: Zurich;
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/zurich/zurich_n4.316383e4d6f5011a63b49c33f37112fe426b844e.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=ff35638ce27eb38bede054c5318e698fa36c3a39c6c751580879535ceee1ee44") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/zurich/zurich_n4.bf5526297fe972fa8a23982a528731860740b4ff.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=9545e8bbfcd148bb9ac039e4ec47f77404c0b6cdc2adfe641a3d69db51a2ffc6") format("woff");
+    }
+
+    @font-face {
+      font-family: Zurich;
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/zurich/zurich_n7.1869af4e3fc7d22e5750981461f1c0a63c8af479.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=b2d098d55893a684283ba2e207901f0e397de4acc261a738a709b4146441c2a0") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/zurich/zurich_n7.1dfc8229933d701bce82619b08b4d0b593ceebd3.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=b5516f4cbaff4ec9f54d0290ed3a1d3101967c98932db64606f45156b9a28560") format("woff");
+    }
+
+    @font-face {
+      font-family: Zurich;
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/zurich/zurich_i4.1d2e0af6977c70f3d39eaccdf6ba0556d7076d6d.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=5b1bbea9e87a3094d68b996da14e5c0688fc17f6b1eed1e578abda4679113ecb") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/zurich/zurich_i4.db367a25a215cafb586b942e992f5063975cb6e0.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=098fd04dfb05dcd7d6c65554e3b25600b6e63044793b91c028d258030d474a1c") format("woff");
+    }
+
+    @font-face {
+      font-family: Zurich;
+      font-weight: 700;
+      font-style: italic;
+      font-display: swap;
+      src: url("//www.jacferdi.com/cdn/fonts/zurich/zurich_i7.3b265bda3c43b8b85b223ad0c952038ef3e8c4a2.woff2?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=6164fb1a6aac07eda78cb4f1bd46778efa70bc911c9ee7f5c4b1666c28f1f9d3") format("woff2"),
+        url("//www.jacferdi.com/cdn/fonts/zurich/zurich_i7.2b2651f6e1b2d3b0111ea103f52eef3f45cce7f4.woff?h1=amFjZmVyZGktNjQ3Mi5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=amFjZmVyZGkuY29t&hmac=ddff6de5b155e42c91caf9a0bfb771736acedace43270daa029f444627a69906") format("woff");
+    }
+
+    #Logo {
+      width: 40%;
+      /* Adjust this value to make the logo smaller */
+      height: auto;
+      /* Maintain aspect ratio */
+    }
+
+
+    :root {
+      --color-text: #ffffff;
+      --color-text-meta: rgba(0, 0, 0, 0.6);
+      --color-text-link: #000000;
+      --color-text-error: #C71B1B;
+      --color-text-success: #21b646;
+
+      --color-background: #000000;
+      --color-background-transparent: rgba(255, 255, 255, 0.8);
+      --color-border: #d4d4d4;
+      --color-overlay: #050505;
+      --color-overlay-transparent: rgba(5, 5, 5, 0.6);
+
+      --color-background-meta: #f5f5f5;
+      --color-background-darker-meta: #e8e8e8;
+      --color-foreground-meta: rgba(16, 16, 16, 0.6);
+
+      --color-card-background: #f5f5f5;
+      --color-card-background-contrast: #0f0f0f;
+
+      --color-border-input: #d4d4d4;
+      --color-text-input: #101010;
+
+      --color-background-button: #181818;
+      --color-background-button-hover: #4b4b4b;
+      --color-text-button: #ffffff;
+      --color-icon: rgba(16, 16, 16, 0.4);
+      --color-icon-darker: rgba(16, 16, 16, 0.6);
+
+      --color-background-sale-badge: #aa1c1c;
+      --color-text-sale-badge: #ffffff;
+      --color-background-sold-badge: #000000;
+      --color-text-sold-badge: #ffffff;
+
+      --color-background-contrast: #000000;
+      --color-background-meta-contrast: #0a0a0a;
+      --color-background-darker-meta-contrast: #000000;
+      --color-foreground-meta-contrast: rgba(255, 255, 255, 0.6);
+      --color-text-contrast: #ffffff;
+      --color-text-meta-contrast: rgba(255, 255, 255, 0.6);
+      --color-border-contrast: #000000;
+      --color-background-button-contrast: #393939;
+      --color-background-button-hover-contrast: #6c6c6c;
+      --color-text-button-contrast: #ffffff;
+      --color-text-link-contrast: #ffffff;
+
+      --color-text-header: #ffffff;
+      --color-background-header: #000000;
+      --color-background-header-transparent: rgba(0, 0, 0, 0);
+      --color-icon-header: #ffffff;
+      --color-shadow-header: rgba(0, 0, 0, 0.15);
+
+      --color-background-footer: #000000;
+      --color-text-footer: #ffffff;
+
+      --color-text-popover: #FFFFFF;
+      --color-text-meta-popover: rgba(255, 255, 255, 0.6);
+      --color-background-popover: #131313;
+      --color-background-meta-popover: #1d1d1d;
+      --color-background-darker-meta-popover: #101010;
+      --color-background-button-popover: #ffffff;
+      --color-background-button-hover-popover: #cccccc;
+      --color-text-button-popover: #131313;
+      --color-border-popover: #000000;
+      --color-border-meta-popover: #333333;
+
+      --button-style: uppercase;
+      --button-shape: 0;
+
+      --font-logo: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+      --font-logo-weight: 400;
+      --font-logo-style: normal;
+      --logo-font-size: 30px;
+      --logo-text-transform: none;
+      --logo-letter-spacing: -0.05em;
+
+      --font-heading: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+      --font-heading-weight: 700;
+      --font-heading-style: normal;
+      --font-heading-light-weight: 400;
+      --font-heading-text-transform: none;
+      --font-heading-base-letter-spacing: -0.05em;
+      --font-heading-base-size: 36px;
+
+      --font-body: Zurich, sans-serif;
+      --font-body-weight: 400;
+      --font-body-style: normal;
+      --font-body-italic: italic;
+      --font-body-bold-weight: 700;
+      --font-body-base-letter-spacing: -0.05em;
+      --font-body-base-size: 18px;
+      --font-body-base-line-height: 1.56;
+
+      --font-product-title-text-transform: uppercase;
+      --font-product-title-base-letter-spacing: 0.025em;
+
+      --font-navigation-text-transform: none;
+      --font-navigation-base-letter-spacing: 0.0em;
+
+      /* Typography */
+      --font-size-heading-1-large: 48px;
+      --line-height-heading-1-large: 44;
+
+      --font-size-heading-1-base: 36px;
+      --line-height-heading-1-base: 1.08;
+
+      --font-size-heading-2-large: 27px;
+      --line-height-heading-2-large: 1.22;
+
+      --font-size-heading-2-base: 21px;
+      --line-height-heading-2-base: 1.29;
+
+      --font-size-heading-3-base: 18px;
+      --line-height-heading-3-base: 1.33;
+
+      --font-size-heading-4-base: 15px;
+      --line-height-heading-4-base: 1.4;
+
+      --font-size-body-large: 24px;
+      --line-height-body-large: 1.5;
+
+      --font-size-body-base: 18px;
+      --line-height-body-base: 1.56;
+
+      --font-size-body-small: 16px;
+      --line-height-body-small: 1.75;
+
+      --font-size-body-x-small: 14px;
+      --line-height-body-x-small: 1.85;
+
+      --font-size-navigation-base: 19px;
+
+      /* Shopify pay specific */
+      --payment-terms-background-color: #f5f5f5;
+    }
+
+    @media (max-width: 45em) {
+      :root {
+        --logo-font-size: 15px;
+
+        --font-size-heading-1-large: 38px;
+
+        --font-size-heading-1-base: 28.8px;
+
+        --font-size-heading-2-large: 22px;
+
+        --font-size-heading-2-base: 17px;
+
+        --font-size-heading-3-base: 14px;
+
+        --font-size-heading-4-base: 12px;
+
+        --font-size-body-large: 18px;
+
+        --font-size-body-base: 13.5px;
+
+        --font-size-body-small: 12px;
+
+        --font-size-body-x-small: 10px;
+
+        --font-size-navigation-base: 14.25px;
+      }
+    }
+  </style>
+
+  <script>
+    flu = window.flu || {};
+    flu.chunks = {
+      flickity: "//www.jacferdi.com/cdn/shop/t/9/assets/flickity-chunk.js?v=161333171902861910521680859449",
+      anime: "//www.jacferdi.com/cdn/shop/t/9/assets/anime-chunk.js?v=85547867352230869071680859449",
+      video: "//www.jacferdi.com/cdn/shop/t/9/assets/video-chunk.js?v=7218243018448504521680859450",
+      gsap: "//www.jacferdi.com/cdn/shop/t/9/assets/gsap-chunk.js?v=97182485572652664751680859449",
+    };
+  </script>
+
+
+
+
+
+  <script type="module"
+    src="//www.jacferdi.com/cdn/shop/t/9/assets/theme.min.js?v=131961694999622531871680859450"></script>
+
+
+
+
+
+
+
+  <link href="//www.jacferdi.com/cdn/shop/t/9/assets/theme.css?v=42200957548106181321729176882" rel="stylesheet"
+    type="text/css" media="all" />
+  <link href="//www.jacferdi.com/cdn/shop/t/9/assets/custom.css?v=120879253149175918231684672842" rel="stylesheet"
+    type="text/css" media="all" />
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
+  <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/72163492144/digital_wallets/dialog">
+  <script async="async" src="/checkouts/internal/preloads.js?locale=en-IN"></script>
+  <script>var Shopify = Shopify || {};
+    Shopify.shop = "jacferdi-6472.myshopify.com";
+    Shopify.locale = "en";
+    Shopify.currency = { "active": "INR", "rate": "1.0" };
+    Shopify.country = "IN";
+    Shopify.theme = { "name": "Spark", "id": 147565183280, "schema_name": "Spark", "schema_version": "3.0.0", "theme_store_id": 911, "role": "main" };
+    Shopify.theme.handle = "null";
+    Shopify.theme.style = { "id": null, "handle": null };
+    Shopify.cdnHost = "www.jacferdi.com/cdn";
+    Shopify.routes = Shopify.routes || {};
+    Shopify.routes.root = "/";</script>
+  <script type="module">!function (o) { (o.Shopify = o.Shopify || {}).modules = !0 }(window);</script>
+  <script>!function (o) { function n() { var o = []; function n() { o.push(Array.prototype.slice.apply(arguments)) } return n.q = o, n } var t = o.Shopify = o.Shopify || {}; t.loadFeatures = n(), t.autoloadFeatures = n() }(window);</script>
+  <script id="shop-js-analytics" type="application/json">{"pageType":"password"}</script>
+  <script>(function () {
+      function asyncLoad() {
+        var urls = ["https:\/\/jacferdi-6472.myshopify.com\/apps\/delivery\/delivery_coder.js?t=1711784769.8034\u0026n=242814994\u0026shop=jacferdi-6472.myshopify.com"];
+        for (var i = 0; i < urls.length; i++) {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = urls[i];
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+      };
+      if (window.attachEvent) {
+        window.attachEvent('onload', asyncLoad);
+      } else {
+        window.addEventListener('load', asyncLoad, false);
+      }
+    })();</script>
+  <script
+    id="__st">var __st = { "a": 72163492144, "offset": -18000, "reqid": "8e91ad17-6816-4d8e-a231-ae34e87d89a4-1735314191", "pageurl": "www.jacferdi.com\/password", "u": "bb3c16b691b6", "p": "password" };</script>
+  <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+  <script
+    id="captcha-bootstrap">!function () { 'use strict'; const t = 'contact', e = 'account', n = 'new_comment', o = [[t, t], ['blogs', n], ['comments', n], [t, 'customer']], c = [[e, 'customer_login'], [e, 'guest_login'], [e, 'recover_customer_password'], [e, 'create_customer']], r = t => t.map((([t, e]) => `form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','), a = t => () => t ? [...document.querySelectorAll(t)].map((t => t.form)) : []; function s() { const t = [...o], e = r(t); return a(e) } function i(t, e, n = !1) { try { const o = window.sessionStorage, c = JSON.parse(o.getItem(e)), { data: r } = c.action ? c : { data: c }; for (const [e, n] of Object.entries(r)) t.elements[e] && (t.elements[e].value = n); n && o.removeItem(e) } catch { } } const u = 'password', m = 'form_key', f = ['recaptcha-v3-token', 'g-recaptcha-response', 'h-captcha-response', u], d = () => { try { return window.sessionStorage } catch { return } }, p = t => t.elements[m], l = 'form_type', h = 'cptcha'; function _(t) { t.dataset[h] = !0 } const y = window, E = y.document, v = 'Shopify', g = 'ce_forms', T = 'captcha'; let S = !1; ((t, e) => { const n = (w = 'f06e6c50-85a8-45c8-87d0-21a2b65856fe', 'https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.0.iife.js', A = { infoText: 'Protected by hCaptcha', privacyText: 'Privacy', termsText: 'Terms' }, (t, e, n) => { const o = y[v][g], c = o.bindForm; if (c) return c(t, w, e, A).then(n); o.q.push([[t, w, e, A], n]), S || (E.body.append(Object.assign(E.createElement('script'), { id: 'captcha-provider', async: !0, src: 'https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.0.iife.js' })), S = !0) }); var w, A; y[v] = y[v] || {}, y[v][g] = y[v][g] || {}, y[v][g].q = [], y[v][T] = y[v][T] || {}, y[v][T].protect = function (t, e) { n(t, void 0, e), _(t) }, Object.freeze(y[v][T]), function (t, e, n, y, E, v) { const [g, T, S, w] = function (t, e, n) { const i = e ? o : [], u = t ? c : [], m = [...i, ...u], f = r(m), d = r(i), p = n && r(m.filter((([t, e]) => n.includes(e)))); return [a(f), a(d), a(p), s()] }(y, E, v), A = t => { const e = t.target; return e instanceof HTMLFormElement ? e : e && e.form }, b = t => g().includes(t); t.addEventListener('submit', (t => { const e = A(t); if (!e) return; const n = b(e) && !e.dataset.hcaptchaBound && !e.dataset.recaptchaBound, o = p(e), c = w().includes(e) && (!o || !o.value); (n || c) && t.preventDefault(), c && !n && (function (t) { try { if (!d()) return; !function (t) { const e = d(); if (!e) return; const n = p(t); if (!n) return; const o = n.value; o && e.removeItem(o) }(t); const e = Array.from(Array(32), (() => Math.random().toString(36)[2])).join(''); !function (t, e) { p(t) || t.append(Object.assign(document.createElement('input'), { type: 'hidden', name: m })), t.elements[m].value = e }(t, e), function (t, e) { const n = d(); if (!n) return; const o = [...t.querySelectorAll(`input[type='${u}']`)].map((({ name: t }) => t)), c = [...f, ...o], r = {}; for (const [a, s] of new FormData(t).entries()) c.includes(a) || (r[a] = s); n.setItem(e, JSON.stringify({ action: t.action, data: r })) }(t, e) } catch (e) { console.error('failed to persist form', e) } }(e), e.submit()) })); const I = (t, e) => { t && !t.dataset[h] && (n(t, e.some((e => e === t))), _(t)) }; for (const o of ['focusin', 'change']) t.addEventListener(o, (t => { const e = A(t); b(e) && I(e, T()) })); const O = e.get('form_key'), R = e.get(l), L = O && R; t.addEventListener('DOMContentLoaded', (() => { const t = T(); if (L) for (const e of t) e.elements[l].value === R && i(e, O);[...new Set([...S(), ...g().filter((t => 'true' === t.dataset.shopifyCaptcha))])].forEach((e => I(e, t))) })) }(E, new URLSearchParams(y.location.search), n, !0, !0, ['guest_login']) })() }();</script>
+  <script integrity="sha256-EGCDRYTvIEOXsReXgqGwkAR+5Dl8tickSrieA/ZcQwc=" data-source-attribution="shopify.loadfeatures"
+    defer="defer"
+    src="//www.jacferdi.com/cdn/shopifycloud/shopify/assets/storefront/load_feature-1060834584ef204397b1179782a1b090047ee4397cb627244ab89e03f65c4307.js"
+    crossorigin="anonymous"></script>
+  <script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
+    function portableWalletsHideBuyerConsent(e) { var t = document.getElementById("shopify-buyer-consent"), n = document.getElementById("shopify-subscription-policy-button"); t && n && (t.classList.add("hidden"), t.setAttribute("aria-hidden", "true"), n.removeEventListener("click", e)) } function portableWalletsShowBuyerConsent(e) { var t = document.getElementById("shopify-buyer-consent"), n = document.getElementById("shopify-subscription-policy-button"); t && n && (t.classList.remove("hidden"), t.removeAttribute("aria-hidden"), n.addEventListener("click", e)) } window.Shopify?.PaymentButton && (window.Shopify.PaymentButton.hideBuyerConsent = portableWalletsHideBuyerConsent, window.Shopify.PaymentButton.showBuyerConsent = portableWalletsShowBuyerConsent);
+  </script>
+  <script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">document.addEventListener("DOMContentLoaded", (function () { function t() { return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout") } if (t()) Shopify.PaymentButton.init(); else { new MutationObserver((function (e, n) { t() && (Shopify.PaymentButton.init(), n.disconnect()) })).observe(document.body, { childList: !0, subtree: !0 }) } }));
+  </script>
+
+
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+  <div class="modal popover" data-modal>
+    <div class="modal__wash"></div>
+    <div class="modal__inner" data-scroll-lock-ignore>
+      <div class="modal__header">
+        <button type="button" data-modal-close class="modal__close-icon" aria-label="Close">
+          <span class="icon-button ">
+            <span class="icon-button__icon">
+
+              <span class="icon ">
+                <svg width="100%" viewBox="0 0 24 24">
+
+                  <path stroke-width="1" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" d="M18 6 6 18M6 6l12 12" />
+
+
+                </svg>
+              </span>
+            </span>
+          </span>
+
+        </button>
+      </div>
+      <div class="modal__content rte rte--page"></div>
+    </div>
+  </div>
+
+  <div class="store-availability-drawer popover" data-store-availability-drawer aria-describedby="drawer-title"
+    aria-hidden="true" role="dialog">
+    <div class="store-availability-drawer__wash" data-store-availability-drawer-wash></div>
+    <div class="store-availability-drawer__inner">
+      <div class="store-availability-drawer__header">
+        <div class="store-availability-drawer__product-info">
+          <h4 id="drawer-title"
+            class="store-availability-drawer__store-list-product-title ff-heading fs-heading-2-large">
+            Availability
+          </h4>
+        </div>
+        <button type="button" class="store-availability-drawer__close" data-store-availability-close aria-label="Close">
+          <span class="icon-button ">
+            <span class="icon-button__icon">
+
+              <span class="icon ">
+                <svg width="100%" viewBox="0 0 24 24">
+
+                  <path stroke-width="1" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" d="M18 6 6 18M6 6l12 12" />
+
+
+                </svg>
+              </span>
+            </span>
+          </span>
+
+        </button>
+      </div>
+      <div class="store-availbility-drawer__product" data-store-availability-product></div>
+
+      <div class="store-availbility-drawer__content" data-store-list-container></div>
+    </div>
+  </div>
+
+
+  <!-- BEGIN app block: shopify://apps/gempages-landing-page-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- END app app block -->
+  <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+  <script>(function () { if ("sendBeacon" in navigator && "performance" in window) { var session_token = document.cookie.match(/_shopify_s=([^;]*)/); function handle_abandonment_event(e) { var entries = performance.getEntries().filter(function (entry) { return /monorail-edge.shopifysvc.com/.test(entry.name); }); if (!window.abandonment_tracked && entries.length === 0) { window.abandonment_tracked = true; var currentMs = Date.now(); var navigation_start = performance.timing.navigationStart; var payload = { shop_id: 72163492144, url: window.location.href, navigation_start, duration: currentMs - navigation_start, session_token: session_token && session_token.length === 2 ? session_token[1] : "", page_type: "password" }; window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({ schema_id: "online_store_buyer_site_abandonment/1.1", payload: payload, metadata: { event_created_at_ms: currentMs, event_sent_at_ms: currentMs } })); } } window.addEventListener('pagehide', handle_abandonment_event); } }());</script>
+  <script
+    id="web-pixels-manager-setup">(function d(d, e, r, a, n) { var o, i, t, s, l = (i = (o = { modern: /Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(12[7-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/, legacy: /Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(12[7-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/ }).modern, t = o.legacy, s = navigator.userAgent, i.test(s) ? "modern" : (t.test(s), "legacy")); window.Shopify = window.Shopify || {}; var c = window.Shopify; c.analytics = c.analytics || {}; var u = c.analytics; u.replayQueue = [], u.publish = function (d, e, r) { return u.replayQueue.push([d, e, r]), !0 }; try { self.performance.mark("wpm:start") } catch (d) { } var h = [r, "/wpm", "/b", n, l.substring(0, 1), ".js"].join(""); !function (d) { var e = d.src, r = d.async, a = void 0 === r || r, n = d.onload, o = d.onerror, i = document.createElement("script"), t = document.head, s = document.body; i.async = a, i.src = e, n && i.addEventListener("load", n), o && i.addEventListener("error", o), t ? t.appendChild(i) : s ? s.appendChild(i) : console.error("Did not find a head or body element to append the script") }({ src: h, async: !0, onload: function () { var r = window.webPixelsManager.init(d); e(r); var a = window.Shopify.analytics; a.replayQueue.forEach((function (d) { var e = d[0], a = d[1], n = d[2]; r.publishCustomEvent(e, a, n) })), a.replayQueue = [], a.publish = r.publishCustomEvent, a.visitor = r.visitor }, onerror: function () { var e = d.storefrontBaseUrl.replace(/\/$/, ""), r = "".concat(e, "/.well-known/shopify/monorail/unstable/produce_batch"), n = JSON.stringify({ metadata: { event_sent_at_ms: (new Date).getTime() }, events: [{ schema_id: "web_pixels_manager_load/3.1", payload: { version: a || "latest", bundle_target: l, page_url: self.location.href, status: "failed", surface: d.surface, error_msg: "".concat(h, " has failed to load") }, metadata: { event_created_at_ms: (new Date).getTime() } }] }); try { if (self.navigator.sendBeacon.bind(self.navigator)(r, n)) return !0 } catch (d) { } var o = new XMLHttpRequest; try { return o.open("POST", r, !0), o.setRequestHeader("Content-Type", "text/plain"), o.send(n), !0 } catch (d) { console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.") } return !1 } }) })({ shopId: 72163492144, storefrontBaseUrl: "https://www.jacferdi.com", extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager", surface: "storefront-renderer", enabledBetaFlags: [], webPixelsConfigList: [{ "id": "shopify-app-pixel", "configuration": "{}", "eventPayloadVersion": "v1", "runtimeContext": "STRICT", "scriptVersion": "0220", "apiClientId": "shopify-pixel", "type": "APP", "privacyPurposes": ["ANALYTICS", "MARKETING"] }, { "id": "shopify-custom-pixel", "eventPayloadVersion": "v1", "runtimeContext": "LAX", "scriptVersion": "0220", "apiClientId": "shopify-pixel", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING"] }], isMerchantRequest: false, initData: { "shop": { "name": "JACFERDI", "paymentSettings": { "currencyCode": "INR" }, "myshopifyDomain": "jacferdi-6472.myshopify.com", "countryCode": "IN", "storefrontUrl": "https:\/\/www.jacferdi.com" }, "customer": null, "cart": null, "checkout": null, "productVariants": [], "purchasingCompany": null }, }, function pageEvents(webPixelsManagerAPI) { webPixelsManagerAPI.publish("page_viewed", {}); }, "https://www.jacferdi.com/cdn", "15679e4c73535ffc88c691fec2c57d6b6dd757f6", "70383a35w7726c023p4d88ec8dm493e98ec",);</script>
+  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+    window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+    window.ShopifyAnalytics.meta.currency = 'INR';
+    var meta = { "page": { "pageType": "password" } };
+    for (var attr in meta) {
+      window.ShopifyAnalytics.meta[attr] = meta[attr];
+    }</script>
+  <script>window.ShopifyAnalytics.merchantGoogleAnalytics = function () {
+
+    };
+  </script>
+  <script class="analytics">(function () {
+      var customDocumentWrite = function (content) {
+        var jquery = null;
+
+        if (window.jQuery) {
+          jquery = window.jQuery;
+        } else if (window.Checkout && window.Checkout.$) {
+          jquery = window.Checkout.$;
+        }
+
+        if (jquery) {
+          jquery('body').append(content);
+        }
+      };
+
+      var hasLoggedConversion = function (token) {
+        if (token) {
+          return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+        }
+        return false;
+      }
+
+      var setCookieIfConversion = function (token) {
+        if (token) {
+          var twoMonthsFromNow = new Date(Date.now());
+          twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+          document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+        }
+      }
+
+      var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+      if (trekkie.integrations) {
+        return;
+      }
+      trekkie.methods = [
+        'identify',
+        'page',
+        'ready',
+        'track',
+        'trackForm',
+        'trackLink'
+      ];
+      trekkie.factory = function (method) {
+        return function () {
+          var args = Array.prototype.slice.call(arguments);
+          args.unshift(method);
+          trekkie.push(args);
+          return trekkie;
+        };
+      };
+      for (var i = 0; i < trekkie.methods.length; i++) {
+        var key = trekkie.methods[i];
+        trekkie[key] = trekkie.factory(key);
+      }
+      trekkie.load = function (config) {
+        trekkie.config = config || {};
+        trekkie.config.initialDocumentCookie = document.cookie;
+        var first = document.getElementsByTagName('script')[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.onerror = function (e) {
+          var scriptFallback = document.createElement('script');
+          scriptFallback.type = 'text/javascript';
+          scriptFallback.onerror = function (error) {
+            var Monorail = {
+              produce: function produce(monorailDomain, schemaId, payload) {
+                var currentMs = new Date().getTime();
+                var event = {
+                  schema_id: schemaId,
+                  payload: payload,
+                  metadata: {
+                    event_created_at_ms: currentMs,
+                    event_sent_at_ms: currentMs
+                  }
+                };
+                return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+              },
+              sendRequest: function sendRequest(endpointUrl, payload) {
+                // Try the sendBeacon API
+                if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+                  var blobData = new window.Blob([payload], {
+                    type: 'text/plain'
+                  });
+
+                  if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+                    return true;
+                  } // sendBeacon was not successful
+
+                } // XHR beacon
+
+                var xhr = new XMLHttpRequest();
+
+                try {
+                  xhr.open('POST', endpointUrl);
+                  xhr.setRequestHeader('Content-Type', 'text/plain');
+                  xhr.send(payload);
+                } catch (e) {
+                  console.log(e);
+                }
+
+                return false;
+              },
+              isIos12: function isIos12() {
+                return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+              }
+            };
+            Monorail.produce('monorail-edge.shopifysvc.com',
+              'trekkie_storefront_load_errors/1.1',
+              {
+                shop_id: 72163492144,
+                theme_id: 147565183280,
+                app_name: "storefront",
+                context_url: window.location.href,
+                source_url: "//www.jacferdi.com/cdn/s/trekkie.storefront.8b4c16448efd5412843a4e489d8eb4898c09f6d2.min.js"
+              });
+
+          };
+          scriptFallback.async = true;
+          scriptFallback.src = '//www.jacferdi.com/cdn/s/trekkie.storefront.8b4c16448efd5412843a4e489d8eb4898c09f6d2.min.js';
+          first.parentNode.insertBefore(scriptFallback, first);
+        };
+        script.async = true;
+        script.src = '//www.jacferdi.com/cdn/s/trekkie.storefront.8b4c16448efd5412843a4e489d8eb4898c09f6d2.min.js';
+        first.parentNode.insertBefore(script, first);
+      };
+      trekkie.load(
+        { "Trekkie": { "appName": "storefront", "development": false, "defaultAttributes": { "shopId": 72163492144, "isMerchantRequest": null, "themeId": 147565183280, "themeCityHash": "12937012076109595883", "contentLanguage": "en", "currency": "INR" }, "isServerSideCookieWritingEnabled": true, "monorailRegion": "shop_domain" }, "Session Attribution": {}, "S2S": { "facebookCapiEnabled": false, "source": "trekkie-storefront-renderer", "apiClientId": 580111 } }
+      );
+
+      var loaded = false;
+      trekkie.ready(function () {
+        if (loaded) return;
+        loaded = true;
+
+        window.ShopifyAnalytics.lib = window.trekkie;
+
+
+        var originalDocumentWrite = document.write;
+        document.write = customDocumentWrite;
+        try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch (error) { };
+        document.write = originalDocumentWrite;
+
+        window.ShopifyAnalytics.lib.page(null, { "pageType": "password" });
+
+        var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+        var token = match ? match[1] : undefined;
+        if (!hasLoggedConversion(token)) {
+          setCookieIfConversion(token);
+
+        }
+      });
+
+
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//www.jacferdi.com/cdn/shopifycloud/shopify/assets/shop_events_listener-61fa9e0a912c675e178777d2b27f6cbd482f8912a6b0aa31fa3515985a8cd626.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+    })();</script>
+  <script class="boomerang">
+    (function () {
+      window.BOOMR = window.BOOMR || {};
+      window.BOOMR.themeName = "Spark";
+      window.BOOMR.themeVersion = "3.0.0";
+      window.BOOMR.shopId = 72163492144;
+      window.BOOMR.themeId = 147565183280;
+    })();</script>
+  <script defer src="https://www.jacferdi.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-1.1.0.min.js"
+    data-application="storefront-renderer" data-shop-id="72163492144" data-render-region="gcp-us-east1"
+    data-page-type="password" data-theme-instance-id="147565183280" data-monorail-region="shop_domain"
+    data-resource-timing-sampling-rate="10"></script>
+</head>
+
+<body class="template-password">
+
+  <div class="active" id="page-transition-overlay"></div>
+  <script>
+    var pageTransitionOverlay = document.getElementById("page-transition-overlay"),
+      internalReferrer = document.referrer.includes(document.location.origin),
+      winPerf = window.performance,
+      navTypeLegacy = winPerf && winPerf.navigation && winPerf.navigation.type,
+      navType = winPerf && winPerf.getEntriesByType && winPerf.getEntriesByType("navigation")[0] && winPerf.getEntriesByType("navigation")[0].type;
+
+    if (!internalReferrer || navType !== "navigate" || navTypeLegacy !== 0) {
+
+      pageTransitionOverlay.className = "active skip-animation";
+      setTimeout(function () {
+        pageTransitionOverlay.className = "skip-animation";
+        setTimeout(function () { pageTransitionOverlay.className = ""; }, 1);
+      }, 1);
+    } else {
+      setTimeout(function () {
+        pageTransitionOverlay.className = "";
+      }, 500);
+    }
+  </script>
+
+
+  <section id="shopify-section-template--18655527633200__main" class="shopify-section">
+    <div class="password welcome" data-section-id="template--18655527633200__main" data-section-type="password">
+
+
+      <div class="password__content" data-content="default">
+        <div class="password__logo">
+          <img id="Logo" src="./Logo.png" alt="Logo" />
+        </div>
+        <header class="password__header" role="banner">
+          <h1 class="password__heading ff-heading fs-heading-1-base ta-c">
+            The Wait Ends Soon
+          </h1>
+          <div class="password__text fs-body-large">
+            <p>Connect Us
+            <p>
+          </div>
+        </header>
+
+
+
+        <div class="password__notify-form">
+
+          <button class="btn btn--primary btn--form" type="button"
+            onclick="window.open('https://www.instagram.com/dahmer.studios/', '_blank');"
+            style="border-radius: 20px; padding: 10px 20px; font-size: 16px;">
+            Be First in Line
+          </button>
+
+
+        </div>
+
+
+
+        <p class="password__subheading fs-body-large">We are in the process of making goods for you!</p>
+
+
+
+        <div class="password__share" style="display: flex; gap: 10px;">
+
+
+          <button type="button" class="password__share btn btn--secondary btn--medium-small" data-social-share
+            aria-haspopup="true">
+            <a href="https://www.instagram.com/dahmer.studios/" target="_blank" rel="noopener noreferrer">
+              <span class="password__share-text fs-body-small fs-body-bold">
+                <span class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </button>
+
+          <button type="button" class="password__share btn btn--secondary btn--medium-small" data-social-share
+            aria-haspopup="true">
+            <a href="whatsapp://send/?phone=+971557080909" target="_blank" rel="noopener noreferrer">
+              <span class="password__share-text fs-body-small fs-body-bold">
+                <span class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-700" fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </button>
+        </div>
+
+
+
+  </section>
+</body>
+
+</html>
